@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "49a01adf04862377d26673833e55e608"
+build_time: [1593636851, 896210000]
+inputs:
+  "/Users/muratozcan/Desktop/eclipse-workspace/AppiumIOS/LaborIQ/LaborIQ/ViewController.swift": [9223372036, 854775807]
+  "/Users/muratozcan/Desktop/eclipse-workspace/AppiumIOS/LaborIQ/LaborIQ/AppDelegate.swift": [9223372036, 854775807]

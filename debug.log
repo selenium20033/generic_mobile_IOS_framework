@@ -1,0 +1,17 @@
+[0926/171533.969:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\MustafaOzkan\AppData\Local\Temp\scoped_dir48628_649040128\Crashpad\reports\615606a0-02d6-4b3b-a372-70423d384010.dmp: The process cannot access the file because it is being used by another process. (0x20)
+[0502/150401.782:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0502/150401.783:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0502/150401.783:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0502/150401.783:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0502/204901.018:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0503/180137.735:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0503/180137.737:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0503/180137.737:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0503/180137.737:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0505/174404.560:ERROR:process_info.cc(359)] UncheckedAllocate
+[0505/221309.467:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0507/183452.844:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0507/231640.062:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0521/154020.607:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0521/154154.203:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0522/063356.005:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports

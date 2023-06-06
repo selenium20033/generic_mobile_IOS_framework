@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: com.thinkWhy.runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 142, Failures: 2, Errors: 5, Skipped: 0, Time elapsed: 6,533.347 s <<< FAILURE! - in com.thinkWhy.runners.TestRunner
+Display of metro comparison on employment by industry tile(Display of metro comparison on employment by industry tile)  Time elapsed: 47.178 s  <<< FAILURE!
+java.lang.AssertionError
+
+Validating headers of metro area industry graphics(Validating headers of metro area industry graphics)  Time elapsed: 26.857 s  <<< FAILURE!
+java.lang.AssertionError
+
+Displaying privacy policy from account data section(Displaying privacy policy from account data section)  Time elapsed: 58.807 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (e80f390e56b511a443f984f4fb24ee0d)] -> xpath: //span[contains(text(),'About Us')]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'LT-0008', ip: '192.168.1.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MustafaOzkan\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50936}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e80f390e56b511a443f984f4fb24ee0d
+
+Displaying privacy policy on add license window(Displaying privacy policy on add license window)  Time elapsed: 32.053 s  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button _ngcontent-nqj-c9="" nz-button="" class="ant-btn ant-btn-primary ant-btn-lg" type="button" nz-wave="[object Object]">...</button> is not clickable at point (320, 776). Other element would receive the click: <div _ngcontent-nqj-c2="" class="overlay ng-star-inserted" style="background-color: rgba(51, 51, 51, 0.8); position: fixed;">...</div>
+  (Session info: headless chrome=81.0.4044.138)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'LT-0008', ip: '192.168.1.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MustafaOzkan\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eba8690738f2dc3b9cf29892ca7380b5
+
+Creating a benchmarking team by CSV upload function(Creating a benchmarking team by CSV upload function)  Time elapsed: 33.861 s  <<< ERROR!
+java.awt.HeadlessException
+
+Company logo load function(Company logo load function)  Time elapsed: 54.486 s  <<< ERROR!
+java.awt.HeadlessException
+
+Account user photo upload(Account user photo upload)  Time elapsed: 41.721 s  <<< ERROR!
+java.awt.HeadlessException
+

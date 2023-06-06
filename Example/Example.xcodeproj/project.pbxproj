@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1098E9AB24ACCC6D009E9500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098E9AA24ACCC6D009E9500 /* AppDelegate.swift */; };
+		1098E9AD24ACCC6D009E9500 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098E9AC24ACCC6D009E9500 /* ViewController.swift */; };
+		1098E9B024ACCC6D009E9500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1098E9AE24ACCC6D009E9500 /* Main.storyboard */; };
+		1098E9B224ACCC6F009E9500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1098E9B124ACCC6F009E9500 /* Assets.xcassets */; };
+		1098E9B524ACCC6F009E9500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1098E9B324ACCC6F009E9500 /* LaunchScreen.storyboard */; };
+		1098E9C024ACCC6F009E9500 /* LaborIQTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098E9BF24ACCC6F009E9500 /* LaborIQTests.swift */; };
+		1098E9CB24ACCC70009E9500 /* LaborIQUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098E9CA24ACCC70009E9500 /* LaborIQUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1098E9BC24ACCC6F009E9500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1098E99F24ACCC6D009E9500 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1098E9A624ACCC6D009E9500;
+			remoteInfo = LaborIQ;
+		};
+		1098E9C724ACCC70009E9500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1098E99F24ACCC6D009E9500 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1098E9A624ACCC6D009E9500;
+			remoteInfo = LaborIQ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1098E9A724ACCC6D009E9500 /* LaborIQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaborIQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1098E9AA24ACCC6D009E9500 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1098E9AC24ACCC6D009E9500 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1098E9AF24ACCC6D009E9500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1098E9B124ACCC6F009E9500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1098E9B424ACCC6F009E9500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1098E9B624ACCC6F009E9500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1098E9BB24ACCC6F009E9500 /* LaborIQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaborIQTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1098E9BF24ACCC6F009E9500 /* LaborIQTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaborIQTests.swift; sourceTree = "<group>"; };
+		1098E9C124ACCC6F009E9500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1098E9C624ACCC70009E9500 /* LaborIQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaborIQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1098E9CA24ACCC70009E9500 /* LaborIQUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaborIQUITests.swift; sourceTree = "<group>"; };
+		1098E9CC24ACCC70009E9500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1098E9A424ACCC6D009E9500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1098E9B824ACCC6F009E9500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1098E9C324ACCC70009E9500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1098E99E24ACCC6D009E9500 = {
+			isa = PBXGroup;
+			children = (
+				1098E9A924ACCC6D009E9500 /* LaborIQ */,
+				1098E9BE24ACCC6F009E9500 /* LaborIQTests */,
+				1098E9C924ACCC70009E9500 /* LaborIQUITests */,
+				1098E9A824ACCC6D009E9500 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1098E9A824ACCC6D009E9500 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1098E9A724ACCC6D009E9500 /* LaborIQ.app */,
+				1098E9BB24ACCC6F009E9500 /* LaborIQTests.xctest */,
+				1098E9C624ACCC70009E9500 /* LaborIQUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1098E9A924ACCC6D009E9500 /* LaborIQ */ = {
+			isa = PBXGroup;
+			children = (
+				1098E9AA24ACCC6D009E9500 /* AppDelegate.swift */,
+				1098E9AC24ACCC6D009E9500 /* ViewController.swift */,
+				1098E9AE24ACCC6D009E9500 /* Main.storyboard */,
+				1098E9B124ACCC6F009E9500 /* Assets.xcassets */,
+				1098E9B324ACCC6F009E9500 /* LaunchScreen.storyboard */,
+				1098E9B624ACCC6F009E9500 /* Info.plist */,
+			);
+			path = LaborIQ;
+			sourceTree = "<group>";
+		};
+		1098E9BE24ACCC6F009E9500 /* LaborIQTests */ = {
+			isa = PBXGroup;
+			children = (
+				1098E9BF24ACCC6F009E9500 /* LaborIQTests.swift */,
+				1098E9C124ACCC6F009E9500 /* Info.plist */,
+			);
+			path = LaborIQTests;
+			sourceTree = "<group>";
+		};
+		1098E9C924ACCC70009E9500 /* LaborIQUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1098E9CA24ACCC70009E9500 /* LaborIQUITests.swift */,
+				1098E9CC24ACCC70009E9500 /* Info.plist */,
+			);
+			path = LaborIQUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1098E9A624ACCC6D009E9500 /* LaborIQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1098E9CF24ACCC70009E9500 /* Build configuration list for PBXNativeTarget "LaborIQ" */;
+			buildPhases = (
+				1098E9A324ACCC6D009E9500 /* Sources */,
+				1098E9A424ACCC6D009E9500 /* Frameworks */,
+				1098E9A524ACCC6D009E9500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaborIQ;
+			productName = LaborIQ;
+			productReference = 1098E9A724ACCC6D009E9500 /* LaborIQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1098E9BA24ACCC6F009E9500 /* LaborIQTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1098E9D224ACCC70009E9500 /* Build configuration list for PBXNativeTarget "LaborIQTests" */;
+			buildPhases = (
+				1098E9B724ACCC6F009E9500 /* Sources */,
+				1098E9B824ACCC6F009E9500 /* Frameworks */,
+				1098E9B924ACCC6F009E9500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1098E9BD24ACCC6F009E9500 /* PBXTargetDependency */,
+			);
+			name = LaborIQTests;
+			productName = LaborIQTests;
+			productReference = 1098E9BB24ACCC6F009E9500 /* LaborIQTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1098E9C524ACCC70009E9500 /* LaborIQUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1098E9D524ACCC70009E9500 /* Build configuration list for PBXNativeTarget "LaborIQUITests" */;
+			buildPhases = (
+				1098E9C224ACCC70009E9500 /* Sources */,
+				1098E9C324ACCC70009E9500 /* Frameworks */,
+				1098E9C424ACCC70009E9500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1098E9C824ACCC70009E9500 /* PBXTargetDependency */,
+			);
+			name = LaborIQUITests;
+			productName = LaborIQUITests;
+			productReference = 1098E9C624ACCC70009E9500 /* LaborIQUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1098E99F24ACCC6D009E9500 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Murat Ozcan";
+				TargetAttributes = {
+					1098E9A624ACCC6D009E9500 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1098E9BA24ACCC6F009E9500 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1098E9A624ACCC6D009E9500;
+					};
+					1098E9C524ACCC70009E9500 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1098E9A624ACCC6D009E9500;
+					};
+				};
+			};
+			buildConfigurationList = 1098E9A224ACCC6D009E9500 /* Build configuration list for PBXProject "LaborIQ" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1098E99E24ACCC6D009E9500;
+			productRefGroup = 1098E9A824ACCC6D009E9500 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1098E9A624ACCC6D009E9500 /* LaborIQ */,
+				1098E9BA24ACCC6F009E9500 /* LaborIQTests */,
+				1098E9C524ACCC70009E9500 /* LaborIQUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1098E9A524ACCC6D009E9500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1098E9B524ACCC6F009E9500 /* LaunchScreen.storyboard in Resources */,
+				1098E9B224ACCC6F009E9500 /* Assets.xcassets in Resources */,
+				1098E9B024ACCC6D009E9500 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1098E9B924ACCC6F009E9500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1098E9C424ACCC70009E9500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1098E9A324ACCC6D009E9500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1098E9AD24ACCC6D009E9500 /* ViewController.swift in Sources */,
+				1098E9AB24ACCC6D009E9500 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1098E9B724ACCC6F009E9500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1098E9C024ACCC6F009E9500 /* LaborIQTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1098E9C224ACCC70009E9500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1098E9CB24ACCC70009E9500 /* LaborIQUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1098E9BD24ACCC6F009E9500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1098E9A624ACCC6D009E9500 /* LaborIQ */;
+			targetProxy = 1098E9BC24ACCC6F009E9500 /* PBXContainerItemProxy */;
+		};
+		1098E9C824ACCC70009E9500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1098E9A624ACCC6D009E9500 /* LaborIQ */;
+			targetProxy = 1098E9C724ACCC70009E9500 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1098E9AE24ACCC6D009E9500 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1098E9AF24ACCC6D009E9500 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1098E9B324ACCC6F009E9500 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1098E9B424ACCC6F009E9500 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1098E9CD24ACCC70009E9500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1098E9CE24ACCC70009E9500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1098E9D024ACCC70009E9500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LaborIQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ThinkWhy.LaborIQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1098E9D124ACCC70009E9500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LaborIQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ThinkWhy.LaborIQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1098E9D324ACCC70009E9500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LaborIQTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ThinkWhy.LaborIQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaborIQ.app/LaborIQ";
+			};
+			name = Debug;
+		};
+		1098E9D424ACCC70009E9500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LaborIQTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ThinkWhy.LaborIQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaborIQ.app/LaborIQ";
+			};
+			name = Release;
+		};
+		1098E9D624ACCC70009E9500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LaborIQUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ThinkWhy.LaborIQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LaborIQ;
+			};
+			name = Debug;
+		};
+		1098E9D724ACCC70009E9500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LaborIQUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ThinkWhy.LaborIQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LaborIQ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1098E9A224ACCC6D009E9500 /* Build configuration list for PBXProject "LaborIQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1098E9CD24ACCC70009E9500 /* Debug */,
+				1098E9CE24ACCC70009E9500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1098E9CF24ACCC70009E9500 /* Build configuration list for PBXNativeTarget "LaborIQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1098E9D024ACCC70009E9500 /* Debug */,
+				1098E9D124ACCC70009E9500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1098E9D224ACCC70009E9500 /* Build configuration list for PBXNativeTarget "LaborIQTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1098E9D324ACCC70009E9500 /* Debug */,
+				1098E9D424ACCC70009E9500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1098E9D524ACCC70009E9500 /* Build configuration list for PBXNativeTarget "LaborIQUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1098E9D624ACCC70009E9500 /* Debug */,
+				1098E9D724ACCC70009E9500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1098E99F24ACCC6D009E9500 /* Project object */;
+}

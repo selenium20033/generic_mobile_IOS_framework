@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.thinkWhy.runners.TestRunner" time="6,533.347" tests="142" errors="5" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\MustafaOzkan\eclipse-workspace\LaborIQMain\target\test-classes;C:\Users\MustafaOzkan\eclipse-workspace\LaborIQMain\target\classes;C:\Users\MustafaOzkan\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.5\selenium-java-3.141.5.jar;C:\Users\MustafaOzkan\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.5\selenium-api-3.141.5.jar;C:\Users\MustafaOzkan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.5\selenium-chrome-driver-3.141.5.jar;C:\Users\MustafaOzkan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.5\selenium-edge-driver-3.141.5.jar;C:\Users\MustafaOzkan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.5\selenium-firefox-driver-3.141.5.jar;C:\Users\MustafaOzkan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.5\selenium-ie-driver-3.141.5.jar;C:\Users\MustafaOzkan\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.5\selenium-opera-driver-3.141.5.jar;C:\Users\MustafaOzkan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.5\selenium-remote-driver-3.141.5.jar;C:\Users\MustafaOzkan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.5\selenium-safari-driver-3.141.5.jar;C:\Users\MustafaOzkan\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.5\selenium-support-3.141.5.jar;C:\Users\MustafaOzkan\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\MustafaOzkan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\MustafaOzkan\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\MustafaOzkan\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\MustafaOzkan\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\MustafaOzkan\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\MustafaOzkan\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\MustafaOzkan\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\MustafaOzkan\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\MustafaOzkan\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\MustafaOzkan\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\MustafaOzkan\.m2\repository\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\Users\MustafaOzkan\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\MustafaOzkan\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\MustafaOzkan\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\MustafaOzkan\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\MustafaOzkan\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\Users\MustafaOzkan\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\MustafaOzkan\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\MustafaOzkan\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\MustafaOzkan\.m2\repository\io\cucumber\cucumber-junit\4.3.0\cucumber-junit-4.3.0.jar;C:\Users\MustafaOzkan\.m2\repository\io\cucumber\cucumber-core\4.3.0\cucumber-core-4.3.0.jar;C:\Users\MustafaOzkan\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\MustafaOzkan\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\MustafaOzkan\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\MustafaOzkan\.m2\repository\io\cucumber\cucumber-expressions\6.2.2\cucumber-expressions-6.2.2.jar;C:\Users\MustafaOzkan\.m2\repository\io\cucumber\datatable\1.1.12\datatable-1.1.12.jar;C:\Users\MustafaOzkan\.m2\repository\io\cucumber\datatable-dependencies\1.1.12\datatable-dependencies-1.1.12.jar;C:\Users\MustafaOzkan\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\MustafaOzkan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\MustafaOzkan\.m2\repository\io\cucumber\cucumber-java\4.3.0\cucumber-java-4.3.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\MustafaOzkan\AppData\Local\Temp\surefire1075831865855459182\surefirebooter5557500673333589458.jar C:\Users\MustafaOzkan\AppData\Local\Temp\surefire1075831865855459182 2020-05-22T11-51-43_421-jvmRun1 surefire8678844197217474758tmp surefire_08899504990077198608tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\MustafaOzkan\eclipse-workspace\LaborIQMain\target\test-classes;C:\Users\MustafaOzkan\eclipse-workspace\LaborIQMain\target\classes;C:\Users\MustafaOzkan\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.5\selenium-java-3.141.5.jar;C:\Users\MustafaOzkan\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.5\selenium-api-3.141.5.jar;C:\Users\MustafaOzkan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.5\selenium-chrome-driver-3.141.5.jar;C:\Users\MustafaOzkan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.5\selenium-edge-driver-3.141.5.jar;C:\Users\MustafaOzkan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.5\selenium-firefox-driver-3.141.5.jar;C:\Users\MustafaOzkan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.5\selenium-ie-driver-3.141.5.jar;C:\Users\MustafaOzkan\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.5\selenium-opera-driver-3.141.5.jar;C:\Users\MustafaOzkan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.5\selenium-remote-driver-3.141.5.jar;C:\Users\MustafaOzkan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.5\selenium-safari-driver-3.141.5.jar;C:\Users\MustafaOzkan\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.5\selenium-support-3.141.5.jar;C:\Users\MustafaOzkan\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\MustafaOzkan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\MustafaOzkan\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\MustafaOzkan\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\MustafaOzkan\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\MustafaOzkan\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\MustafaOzkan\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\MustafaOzkan\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\MustafaOzkan\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\MustafaOzkan\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\MustafaOzkan\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\MustafaOzkan\.m2\repository\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\Users\MustafaOzkan\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\MustafaOzkan\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\MustafaOzkan\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\MustafaOzkan\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\MustafaOzkan\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\Users\MustafaOzkan\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\MustafaOzkan\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\MustafaOzkan\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\MustafaOzkan\.m2\repository\io\cucumber\cucumber-junit\4.3.0\cucumber-junit-4.3.0.jar;C:\Users\MustafaOzkan\.m2\repository\io\cucumber\cucumber-core\4.3.0\cucumber-core-4.3.0.jar;C:\Users\MustafaOzkan\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\MustafaOzkan\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\MustafaOzkan\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\MustafaOzkan\.m2\repository\io\cucumber\cucumber-expressions\6.2.2\cucumber-expressions-6.2.2.jar;C:\Users\MustafaOzkan\.m2\repository\io\cucumber\datatable\1.1.12\datatable-1.1.12.jar;C:\Users\MustafaOzkan\.m2\repository\io\cucumber\datatable-dependencies\1.1.12\datatable-dependencies-1.1.12.jar;C:\Users\MustafaOzkan\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\MustafaOzkan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\MustafaOzkan\.m2\repository\io\cucumber\cucumber-java\4.3.0\cucumber-java-4.3.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\MustafaOzkan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="basedir" value="C:\Users\MustafaOzkan\eclipse-workspace\LaborIQMain"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\MustafaOzkan\AppData\Local\Temp\surefire1075831865855459182\surefirebooter5557500673333589458.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="user.name" value="MustafaOzkan"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\MustafaOzkan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MustafaOzkan\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="user.dir" value="C:\Users\MustafaOzkan\eclipse-workspace\LaborIQMain"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\MustafaOzkan\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\MustafaOzkan\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Java\jre1.8.0_221\bin;C:\Program Files\Git\cmd;C:\Program Files\Amazon\AWSCLI\bin;C:\Selenium Jars Plugins\apache-maven-3.6.1\bin;C:\Selenium Jars Plugins\76.0.3809.87_chrome_installer64Bit.exe;C:\Users\MustafaOzkan\AppData\Local\Android\sdk\tools\bin;C:\Users\MustafaOzkan\AppData\Local\Android\sdk\tools;C:\Users\MustafaOzkan\AppData\Local\Android\sdk\platform-tools;C:\Program Files\nodejs;C:\Program Files\nodejs\node_modules\npm\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\MustafaOzkan\AppData\Local\Microsoft\WindowsApps;C:\Users\MustafaOzkan\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Adding multiple team members to a job after creating benchmarking view" classname="Adding multiple team members to a job after creating benchmarking view" time="119.985"/>
+  <testcase name="Adding multiple team members to a job before creating benchmarking view" classname="Adding multiple team members to a job before creating benchmarking view" time="91.303"/>
+  <testcase name="Adding a new tile to a GLS benchmarking view" classname="Adding a new tile to a GLS benchmarking view" time="94.64"/>
+  <testcase name="Benchmarking jobs against their markets" classname="Benchmarking jobs against their markets" time="73.119"/>
+  <testcase name="Creating a new dashboard with GLS Benchmarking" classname="Creating a new dashboard with GLS Benchmarking" time="73.932"/>
+  <testcase name="Adding a job by using job configurator function" classname="Adding a job by using job configurator function" time="85.527"/>
+  <testcase name="Adding a team member by using team configurator function" classname="Adding a team member by using team configurator function" time="111.389"/>
+  <testcase name="Display of GLS benchmarking pie charts on the header section" classname="Display of GLS benchmarking pie charts on the header section" time="78.689"/>
+  <testcase name="Display of GLS benchmarking tiles" classname="Display of GLS benchmarking tiles" time="73.347"/>
+  <testcase name="Displaying the total and market cost of the team" classname="Displaying the total and market cost of the view" time="84.73"/>
+  <testcase name="Editing and deleting jobs on insight view" classname="Editing and deleting jobs on insight view" time="104.985"/>
+  <testcase name="Editing and deleting teams on team configurator" classname="Editing and deleting teams on team configurator" time="123.126"/>
+  <testcase name="Displaying employee benchmark graph options" classname="Displaying employee benchmark graph options" time="83.39"/>
+  <testcase name="Hide sensitive data on a benchmarking view" classname="Hide sensitive data on a benchmarking view" time="88.518"/>
+  <testcase name="Displaying job title benchmark graph options" classname="Displaying job title benchmark graph options" time="93.113"/>
+  <testcase name="Displaying team salary benchmark graph options" classname="Displaying team salary benchmark graph options" time="83.48"/>
+  <testcase name="Validating the content of a cloned benchmarking view" classname="Validating the content of a cloned benchmarking view" time="94.838"/>
+  <testcase name="Adding a new tile to an existing BYO view" classname="Adding a new tile to an existing BYO view" time="57.633"/>
+  <testcase name="Adding view to an existing dashboard" classname="Adding view to an existing dashboard" time="42.046"/>
+  <testcase name="Cloning a dashboard" classname="Cloning a dashboard" time="32.464"/>
+  <testcase name="Comparing tiles with national benchmarking" classname="Comparing tiles with national benchmarking" time="28.593"/>
+  <testcase name="Creating a new dashboard with build your own function" classname="Creating a new dashboard with build your own function" time="40.413"/>
+  <testcase name="Display of dasboard details when clicked on the dashboard" classname="Display of dasboard details when clicked on the dashboard" time="28.741"/>
+  <testcase name="Deleting a dashboard" classname="Deleting a dashboard" time="22.859"/>
+  <testcase name="Displaying dashboard tile graphics" classname="Displaying dashboard tile graphics" time="29.653"/>
+  <testcase name="Editing a dashboard" classname="Editing a dashboard" time="27.303"/>
+  <testcase name="Editing/deleting dashboard views and  cloning/deleting dashbaords" classname="Editing/deleting dashboard views and  cloning/deleting dashbaords" time="46.673"/>
+  <testcase name="Editing tile dropdown options" classname="Editing tile dropdown options" time="47.492"/>
+  <testcase name="Updating dashboard view info" classname="Updating dashboard view info" time="24.922"/>
+  <testcase name="Validating the content of the view of a build your own dashboard" classname="Validating the content of the view of a build your own dashboard" time="49.039"/>
+  <testcase name="Verifying the content of a new cloned build your own view" classname="Verifying the content of a new cloned build your own view" time="95.592"/>
+  <testcase name="Adding a new tile to a GLS insight" classname="Adding a new tile to a GLS insight" time="56.735"/>
+  <testcase name="Adding hard skills to dashboard insight" classname="Adding hard skills to dashboard insight" time="50.613"/>
+  <testcase name="Adding soft skills to dashboard insight" classname="Adding soft skills to dashboard insight" time="50.303"/>
+  <testcase name="Comparing job salaries by GLS Insights" classname="Comparing job salaries by GLS Insights" time="44.135"/>
+  <testcase name="Creating a new dashboard with GLS Insights" classname="Creating a new dashboard with GLS Insights" time="36.285"/>
+  <testcase name="Displaying GLS Insight tiles" classname="Displaying GLS Insight tiles" time="47.58"/>
+  <testcase name="Displaying graphics of a new created insight" classname="Displaying graphics of a new created insight" time="40.998"/>
+  <testcase name="Job salary comparison with other metros" classname="Job salary comparison with other metros" time="69.177"/>
+  <testcase name="Updating GLS Insights Dropdown Options" classname="Updating GLS Insights Dropdown Options" time="48.999"/>
+  <testcase name="Validating current market salary of a dashboard insight" classname="Validating current market salary of a dashboard insight" time="40.643"/>
+  <testcase name="Validating the display of current market salary and salary forecast" classname="Validating the display of current market salary and salary forecast" time="38.13"/>
+  <testcase name="Verifying the content of a cloned insight view to the same dashboard" classname="Verifying the content of a cloned insight view to the same dashboard" time="94.377"/>
+  <testcase name="Adding a new tile to a markets insights view" classname="Adding a new tile to a markets insights view" time="66.885"/>
+  <testcase name="Creating a Labor Markets view by guided labor solutions" classname="Creating a Labor Markets view by guided labor solutions" time="48.786"/>
+  <testcase name="Creating a Demographics Markets view by GLS" classname="Creating a Demographics Markets view by GLS" time="43.933"/>
+  <testcase name="Creating a Industries Markets view by GLS" classname="Creating a Industries Markets view by GLS" time="44.462"/>
+  <testcase name="Creating an Occupation Markets view by GLS" classname="Creating an Occupation Markets view by GLS" time="43.104"/>
+  <testcase name="Creating a Rankings Markets view by GLS" classname="Creating a Rankings Markets view by GLS" time="37.35"/>
+  <testcase name="Creating a Universities Markets view by GLS" classname="Creating a Universities Markets view by GLS" time="43.467"/>
+  <testcase name="Display of Labor Markets insights tiles" classname="Display of Labor Markets insights tiles" time="44.501"/>
+  <testcase name="Validating the content of a new cloned markets dashboard" classname="Validating the content of a new cloned markets dashboard" time="116.209"/>
+  <testcase name="Displaying demographics tile library" classname="Displaying demographics tile library" time="27.201"/>
+  <testcase name="Displaying industry tile library" classname="Displaying industry tile library" time="26.511"/>
+  <testcase name="Displaying labor market tile library" classname="Displaying labor market tile library" time="26.235"/>
+  <testcase name="Displaying occupation tile library" classname="Displaying occupation tile library" time="26.584"/>
+  <testcase name="Displaying university tile library" classname="Displaying university tile library" time="26.742"/>
+  <testcase name="City to metro lookup" classname="City to metro lookup" time="23.938"/>
+  <testcase name="Display of FAQ" classname="Display of FAQ" time="27.436"/>
+  <testcase name="Display of Glossary Terms" classname="Display of Glossary Terms" time="28.466"/>
+  <testcase name="Display of training videos" classname="Display of training videos" time="20.815"/>
+  <testcase name="Reporting a bug function" classname="Reporting a bug function" time="22.798"/>
+  <testcase name="Using sharing an idea function on help menu" classname="Using sharing an idea function on help menu" time="23.242"/>
+  <testcase name="Using get help menu" classname="Using get help menu" time="25.008"/>
+  <testcase name="Home page search function" classname="Home page search function" time="17.482"/>
+  <testcase name="Changing metro area year dropdown options" classname="Changing metro area year dropdown options" time="41.146"/>
+  <testcase name="Changing metro rankings table display options" classname="Changing metro rankings table display options" time="44.628"/>
+  <testcase name="Changing metro rankings dropdown options" classname="Changing metro rankings dropdown options" time="32.249"/>
+  <testcase name="Display of Covid Tab Content For Forecasted Metro" classname="Display of Covid19 Tab Content For Forecasted Metro" time="29.998"/>
+  <testcase name="Display of metro comparison on employment by industry tile" classname="Display of metro comparison on employment by industry tile" time="47.178">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+</failure>
+    <system-out><![CDATA[Starting test : Display of metro comparison on employment by industry tile
+This is the title :LaborIQ
+First: Albany, GA
+Non-ForecastedSecond : Albany-Schenectady-Troy, NY
+ForecastedThird : Alexandria, LA
+Non-Forecasted
+This is the tile text :Albany, GA
+Albany-Schenectady-Troy, NY
+Dallas-Fort Worth-Arlington, TX
+2019
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+80.0%
+85.0%
+90.0%
+95.0%
+100.0%
+105.0%
+Percent of Employment
+Ending test:Display of metro comparison on employment by industry tile
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 17851
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590170014.378][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+[1590170016.382][WARNING]: Timed out connecting to Chrome, retrying...
+May 22, 2020 12:53:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590170020.427][WARNING]: Timed out connecting to Chrome, retrying...
+[1590170022.933][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590170023.056][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590170023.158][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590170023.277][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590170023.464][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590170023.566][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590170023.667][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="Display of industry comparison on job growth by industry tile" classname="Display of industry comparison on job growth by industry tile" time="47.994"/>
+  <testcase name="Validating the number metro demographic charts that are displayed" classname="Validating the number metro demographic charts that are displayed" time="34.664"/>
+  <testcase name="Validating headers of demographic graphics" classname="Validating headers of demographic graphics" time="32.376"/>
+  <testcase name="Display of metro area overview table" classname="Display of metro area overview table" time="28.399"/>
+  <testcase name="Displaying tile graphics charts annually" classname="Displaying tile graphics charts annually" time="35.289"/>
+  <testcase name="Displaying tile graphics charts monthly" classname="Displaying tile graphics charts monthly" time="38.446"/>
+  <testcase name="Displaying tile graphics charts quarterly" classname="Displaying tile graphics charts quarterly" time="36.703"/>
+  <testcase name="Validating the number metro industry charts that are displayed" classname="Validating the number metro industry charts that are displayed" time="27.212"/>
+  <testcase name="Validating headers of metro area industry graphics" classname="Validating headers of metro area industry graphics" time="26.857">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+</failure>
+    <system-out><![CDATA[Starting test : Validating headers of metro area industry graphics
+This is the title :LaborIQ
+
+Ending test:Validating headers of metro area industry graphics
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 30689
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590170342.659][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+[1590170344.662][WARNING]: Timed out connecting to Chrome, retrying...
+May 22, 2020 12:59:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590170348.681][WARNING]: Timed out connecting to Chrome, retrying...
+[1590170351.046][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590170351.156][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590170351.258][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590170351.544][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590170351.645][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="Validating the number metro labor market charts that are displayed" classname="Validating the number metro labor market charts that are displayed" time="28.436"/>
+  <testcase name="Validating headers of labor market graphics" classname="Validating headers of labor market graphics" time="29.426"/>
+  <testcase name="Display of MD metro overview content" classname="Display of MD metro overview content" time="28.904"/>
+  <testcase name="Metro Rankings MAP Display" classname="Metro Rankings MAP Display" time="33.281"/>
+  <testcase name="Display of the metro area ranking table" classname="Display of the metro area ranking table" time="34.127"/>
+  <testcase name="Display of ND metro overview content" classname="Display of ND metro overview content" time="29.446"/>
+  <testcase name="Display of national metro overview content" classname="Display of national metro overview content" time="31.473"/>
+  <testcase name="Validating the number metro occupation charts that are displayed" classname="Validating the number metro occupation charts that are displayed" time="28.887"/>
+  <testcase name="Validating headers of occupation graphics" classname="Validating headers of occupation graphics" time="28.386"/>
+  <testcase name="Validating the number metro overview charts that are displayed" classname="Validating the number metro overview charts that are displayed" time="27.88"/>
+  <testcase name="Validating headers of metro area overview graphics" classname="Validating headers of metro area overview graphics" time="27.363"/>
+  <testcase name="Overview Metro Area Region (Map) Display(Overview Metro Area Region " classname="Map) Display" time="27.8"/>
+  <testcase name="Validating the number university graphic charts that are displayed" classname="Validating the number university graphic charts that are displayed" time="29.651"/>
+  <testcase name="Validating headers of university graphics" classname="Validating headers of university graphics" time="28.792"/>
+  <testcase name="Validating display of metro economics robotext tiles" classname="Validating display of metro economics robotext tiles" time="27.845"/>
+  <testcase name="Validating the display of source  info of the tile graphics" classname="Validating the display of source  info of the tile graphics" time="28.083"/>
+  <testcase name="Validating tile graphics begin and end years" classname="Validating tile graphics begin and end years" time="26.678"/>
+  <testcase name="Verifying the change of metro area on the tile footer" classname="Verifying the change of metro area on the tile footer" time="27.052"/>
+  <testcase name="Displaying all news when clicked on headers" classname="Displaying all news when clicked on headers" time="27.643"/>
+  <testcase name="Displaying blog news when clicked on headers" classname="Displaying blog news when clicked on headers" time="34.2"/>
+  <testcase name="Displaying labor market reports when clicked on headers" classname="Displaying labor market reports when clicked on headers" time="27.562"/>
+  <testcase name="Select interest preferences for news and insights" classname="Select interest preferences for news and insights" time="24.381"/>
+  <testcase name="Displaying privacy policy from account data section" classname="Displaying privacy policy from account data section" time="58.807">
+    <error message="Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (e80f390e56b511a443f984f4fb24ee0d)] -&gt; xpath: //span[contains(text(),&apos;About Us&apos;)]] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;&#10;System info: host: &apos;LT-0008&apos;, ip: &apos;192.168.1.178&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MustafaOzkan\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50936}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: e80f390e56b511a443f984f4fb24ee0d" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (e80f390e56b511a443f984f4fb24ee0d)] -> xpath: //span[contains(text(),'About Us')]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'LT-0008', ip: '192.168.1.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MustafaOzkan\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50936}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e80f390e56b511a443f984f4fb24ee0d
+</error>
+    <system-out><![CDATA[Starting test : Displaying privacy policy from account data section
+This is the title :LaborIQ
+Ending test:Displaying privacy policy from account data section
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 14200
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590171006.849][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+[1590171008.857][WARNING]: Timed out connecting to Chrome, retrying...
+May 22, 2020 1:10:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590171012.901][WARNING]: Timed out connecting to Chrome, retrying...
+[1590171015.321][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590171015.422][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590171015.601][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590171015.789][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590171040.397][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="Display of accounts settings section" classname="Display of accounts settings section" time="29.977"/>
+  <testcase name="Editing account users organization" classname="Editing account users organization" time="56.944"/>
+  <testcase name="Editing account users profile" classname="Editing account users profile" time="49.684"/>
+  <testcase name="Activating Email Notification Button" classname="Activating Email Notification Button" time="29.951"/>
+  <testcase name="Displaying privacy policy on add license window" classname="Displaying privacy policy on add license window" time="32.053">
+    <error message="element click intercepted: Element &lt;button _ngcontent-nqj-c9=&quot;&quot; nz-button=&quot;&quot; class=&quot;ant-btn ant-btn-primary ant-btn-lg&quot; type=&quot;button&quot; nz-wave=&quot;[object Object]&quot;&gt;...&lt;/button&gt; is not clickable at point (320, 776). Other element would receive the click: &lt;div _ngcontent-nqj-c2=&quot;&quot; class=&quot;overlay ng-star-inserted&quot; style=&quot;background-color: rgba(51, 51, 51, 0.8); position: fixed;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: headless chrome=81.0.4044.138)&#10;Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;&#10;System info: host: &apos;LT-0008&apos;, ip: &apos;192.168.1.178&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MustafaOzkan\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: eba8690738f2dc3b9cf29892ca7380b5" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button _ngcontent-nqj-c9="" nz-button="" class="ant-btn ant-btn-primary ant-btn-lg" type="button" nz-wave="[object Object]">...</button> is not clickable at point (320, 776). Other element would receive the click: <div _ngcontent-nqj-c2="" class="overlay ng-star-inserted" style="background-color: rgba(51, 51, 51, 0.8); position: fixed;">...</div>
+  (Session info: headless chrome=81.0.4044.138)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'LT-0008', ip: '192.168.1.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MustafaOzkan\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eba8690738f2dc3b9cf29892ca7380b5
+]]></error>
+    <system-out><![CDATA[Starting test : Displaying privacy policy on add license window
+This is the title :LaborIQ
+Ending test:Displaying privacy policy on add license window
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 8301
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590171232.201][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+[1590171234.204][WARNING]: Timed out connecting to Chrome, retrying...
+May 22, 2020 1:13:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590171238.231][WARNING]: Timed out connecting to Chrome, retrying...
+[1590171240.620][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590171240.734][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590171240.882][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590171241.072][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590171241.174][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="Displaying terms of service on add license window" classname="Displaying terms of service on add license window" time="70.117"/>
+  <testcase name="Adding A New Payment Method" classname="AddingANewPaymentMethod" time="130.204"/>
+  <testcase name="Adding license after subscription" classname="Adding license after subscription" time="36.67"/>
+  <testcase name="Adding license changing payment method" classname="Adding license changing payment method" time="104.535"/>
+  <testcase name="Assigning and deleting users" classname="Assigning and deleting users" time="30.354"/>
+  <testcase name="Editing billing contact info" classname="Editing billing contact info" time="38.806"/>
+  <testcase name="Changing my default metro area" classname="Changing my default metro area" time="51.07"/>
+  <testcase name="Changing organization default metro area" classname="Changing organization default metro area" time="43.03"/>
+  <testcase name="Confirming organizational default metro area change" classname="Confirming organizational default metro area change" time="37.17"/>
+  <testcase name="Display of change password window" classname="Display of change password window" time="33.938"/>
+  <testcase name="Display of the current plan information" classname="Display of the current plan information" time="46.154"/>
+  <testcase name="Display of notification settings options" classname="Display of notification settings options" time="30.337"/>
+  <testcase name="Display of sms verification settings window" classname="Display of sms verification settings window" time="32.379"/>
+  <testcase name="Display of the transaction history" classname="Display of the transaction history" time="47.301"/>
+  <testcase name="Downloading invoice" classname="Downloading invoice" time="62.817"/>
+  <testcase name="Editing account user info" classname="Editing account user info" time="52.689"/>
+  <testcase name="Editing current payment info on the account settings section" classname="Editing current payment info on the account settings section" time="60.655"/>
+  <testcase name="Editing primary contact info" classname="Editing primary contact info" time="40.208"/>
+  <testcase name="Revieving account data GDPR consent" classname="Revieving account data GDPR consent" time="38.62"/>
+  <testcase name="User sign out" classname="User sign out" time="21.329"/>
+  <testcase name="Adding hard skills to salary answers" classname="Adding hard skills to salary answers" time="46.139"/>
+  <testcase name="Adding soft skills to salary answers" classname="Adding soft skills to salary answers" time="51.939"/>
+  <testcase name="Creating Insights by salary answers" classname="Creating Insights by salary answers" time="34.927"/>
+  <testcase name="Job salary comparison with other metros on salary answers feature" classname="Job salary comparison with other metros on salary answers feature" time="62.909"/>
+  <testcase name="Salary answers compare salary function" classname="Salary answers compare salary function" time="36.957"/>
+  <testcase name="Saving salary insights to a new created dashboard" classname="Saving salary insights to a new created dashboard" time="60.311"/>
+  <testcase name="Creating an organizational account" classname="Creating an organizational account" time="48.169"/>
+  <testcase name="Display of privacy policy" classname="Display of privacy policy" time="27.023"/>
+  <testcase name="Display of terms of service" classname="Display of terms of service" time="23.855"/>
+  <testcase name="Forgot password" classname="Forgot password" time="14.24"/>
+  <testcase name="Invalid login" classname="Invalid Login" time="11.826"/>
+  <testcase name="Valid login" classname="Valid login" time="16.536"/>
+  <testcase name="Creating a benchmarking team by CSV upload function" classname="Creating a benchmarking team by CSV upload function" time="33.861">
+    <error type="java.awt.HeadlessException">java.awt.HeadlessException
+</error>
+    <system-out><![CDATA[Starting test : Creating a benchmarking team by CSV upload function
+This is the title :LaborIQ
+Ending test:Creating a benchmarking team by CSV upload function
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 31001
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590172707.521][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+[1590172709.529][WARNING]: Timed out connecting to Chrome, retrying...
+May 22, 2020 1:38:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590172713.576][WARNING]: Timed out connecting to Chrome, retrying...
+[1590172716.141][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590172716.257][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590172716.426][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590172716.613][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590172716.714][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590172716.817][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="Company logo load function" classname="Company logo load function" time="54.486">
+    <error type="java.awt.HeadlessException">java.awt.HeadlessException
+</error>
+    <system-out><![CDATA[Starting test : Company logo load function
+This is the title :LaborIQ
+Passed to next step
+This step is cancelled due to UI design change
+Ending test:Company logo load function
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 15716
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590172741.383][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+[1590172743.390][WARNING]: Timed out connecting to Chrome, retrying...
+May 22, 2020 1:39:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590172747.437][WARNING]: Timed out connecting to Chrome, retrying...
+[1590172749.873][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590172749.995][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590172750.096][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590172750.368][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590172750.469][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="Account user photo upload" classname="Account user photo upload" time="41.721">
+    <error type="java.awt.HeadlessException">java.awt.HeadlessException
+</error>
+    <system-out><![CDATA[Starting test : Account user photo upload
+This is the title :LaborIQ
+Passed to next step
+Ending test:Account user photo upload
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 38554
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590172795.855][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+[1590172797.862][WARNING]: Timed out connecting to Chrome, retrying...
+May 22, 2020 1:39:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590172801.884][WARNING]: Timed out connecting to Chrome, retrying...
+[1590172804.284][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590172804.386][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590172804.542][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590172804.753][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590172804.855][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+</testsuite>
